@@ -1,0 +1,9 @@
+{
+  "name": "serverless-data-example",
+  "custom": {
+    "optimize": true
+  },
+  "plugins": [
+    "serverless-optimizer-plugin"  
+  ]
+}
