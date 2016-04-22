@@ -1,0 +1,10 @@
+{
+  "apiGatewayRequestTemplate": {
+    "application/json": {
+      "readingsource": "$input.params('readingsource')",
+      "from": "$input.params('from')",
+      "to": "$input.params('to')",
+      "readings": "$input.params('readings')"
+    }
+  }
+}

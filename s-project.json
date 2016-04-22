@@ -1,7 +1,10 @@
 {
   "name": "serverless-data-example",
   "custom": {
-    "optimize": true
+    "optimize": {
+      "disable": false,
+      "exclude": ["aws-sdk"]
+    }
   },
   "plugins": [
     "serverless-optimizer-plugin"  

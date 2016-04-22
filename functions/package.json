@@ -1,0 +1,16 @@
+{
+  "name": "serverless-data-example",
+  "version": "0.0.1",
+  "description": "A Serverless Project and its Serverless Plugin dependencies.",
+  "author": "me",
+  "license": "Unlicense",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.3.5",
+    "dynamodb-marshaler": "^1.2.2"
+  }
+}

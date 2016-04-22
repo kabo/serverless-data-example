@@ -39,6 +39,13 @@
                 "logs:PutLogEvents"
               ],
               "Resource": "arn:aws:logs:${region}:*:*"
+            },
+            {
+              "Effect": "Allow",
+              "Action": [
+                "dynamodb:Query"
+              ],
+              "Resource": "arn:aws:dynamodb:${region}:*:table/readings"
             }
           ]
         },

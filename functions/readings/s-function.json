@@ -4,7 +4,7 @@
   "description": "Serverless Lambda function for project: serverless-data-example",
   "customName": false,
   "customRole": false,
-  "handler": "handler.handler",
+  "handler": "readings/handler.handler",
   "timeout": 6,
   "memorySize": 1024,
   "authorizer": {},
@@ -19,10 +19,13 @@
       "authorizationType": "none",
       "authorizerFunction": false,
       "apiKeyRequired": false,
-      "requestParameters": {},
-      "requestTemplates": {
-        "application/json": ""
+      "requestParameters": {
+        "integration.request.querystring.readingsource": "method.request.querystring.readingsource",
+        "integration.request.querystring.from": "method.request.querystring.from",
+        "integration.request.querystring.to": "method.request.querystring.to",
+        "integration.request.querystring.readings": "method.request.querystring.readings"
       },
+      "requestTemplates": "$${apiGatewayRequestTemplate}",
       "responses": {
         "400": {
           "statusCode": "400"

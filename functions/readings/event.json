@@ -2,11 +2,5 @@
   "readingsource": "Station1",
   "from": "2014-02-10 10:00:00",
   "to": "2014-02-12 09:00:00",
-  "readings": [
-    "readingsource",
-    "readingdatetime",
-    "lev",
-    "precip",
-    "tmp"
-  ]
+  "readings": "readingsource,readingdatetime,lev,precip,tmp"
 }
