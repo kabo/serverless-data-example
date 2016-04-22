@@ -23,11 +23,11 @@ with open(args.file, 'rb') as f:
         units.append(unit)
       rown = rown + 1
       continue
-    item = {"source": {"S": "Station1"}}
+    item = {"readingsource": {"S": "Station1"}}
     i = 0
     for val in row:
       if i == 0:
-        item['datetime'] = {'S': val}
+        item['readingdatetime'] = {'S': val}
       else:
         item[headers[i]] = {"M": {"Unit": {"S": units[i]}, "Value": {"N": val.strip()}}}
       i = i + 1
