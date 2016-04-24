@@ -60,6 +60,7 @@ grunt serve # will open your browser and take you to the frontend
 
 ```bash
 serverless dash deploy # deploy the function and the endpoint
+cd gui
 grunt build
 aws s3 sync dist s3://[s3-bucket]/ --acl public-read
 ```
