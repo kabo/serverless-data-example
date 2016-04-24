@@ -7,6 +7,6 @@ version 0.15.1.
 
 Run `grunt` for building and `grunt serve` for preview.
 
-## Testing
+## Deploying
 
-Running `grunt test` will run the unit tests with karma.
+Running `grunt build` will place a build in the dist folder which you can then deploy, for example to S3.
