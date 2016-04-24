@@ -2,7 +2,7 @@
 
 ## About
 
-A REST API running on AWS Lambda, which means that it only costs money when it's in use and basically infinitely scaleable. The API gets its data from AWS DynamoDB. This API is coupled with an Angular website hosted on S3. No servers to care for, no OS patching, super cheap and if coupled with cloudfront would be very fast anywhere in the world. What's not to like?
+A REST API running on AWS Lambda, which means that it only costs money when it's in use and basically infinitely scalable. The API gets its data from AWS DynamoDB. This API is coupled with an Angular website hosted on S3. No servers to care for, no OS patching, super cheap and if coupled with cloudfront would be very fast anywhere in the world. What's not to like?
 
 The API expects four parameters:
 
