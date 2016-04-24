@@ -5,8 +5,7 @@
     "angular": "^1.4.0",
     "bootstrap": "^3.2.0",
     "angular-resource": "^1.4.0",
-    "angular-route": "^1.4.0",
-    "d3": "^3.5.16"
+    "angular-route": "^1.4.0"
   },
   "devDependencies": {
     "angular-mocks": "^1.4.0"

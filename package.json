@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "aws-sdk": "^2.3.5",
+    "serverless-cors-plugin": "^0.4.1",
     "serverless-optimizer-plugin": "^2.5.1"
   },
   "devDependencies": {

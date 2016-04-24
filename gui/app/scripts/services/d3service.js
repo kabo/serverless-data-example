@@ -20,7 +20,8 @@ angular.module('d3', [])
     var scriptTag = $document[0].createElement('script');
     scriptTag.type = 'text/javascript';
     scriptTag.async = true;
-    scriptTag.src = 'bower_components/d3/d3.js';
+    //scriptTag.src = 'bower_components/d3/d3.js';
+    scriptTag.src = 'https://d3js.org/d3.v3.min.js';
     scriptTag.onreadystatechange = function () {
     if (this.readyState === 'complete') { onScriptLoad(); }
   };

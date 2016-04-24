@@ -8,6 +8,7 @@
   },
   "plugins": [
     "serverless-optimizer-plugin",
-    "serverless-serve"
+    "serverless-serve",
+    "serverless-cors-plugin"
   ]
 }
