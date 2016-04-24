@@ -1,4 +1,4 @@
-<div class="jumbotron">
+<!--<div class="jumbotron">
   <h1>'Allo, 'Allo!</h1>
   <p class="lead">
     <img src="images/yeoman.png" alt="I'm Yeoman"><br>
@@ -21,5 +21,7 @@
   <h4>Karma</h4>
   <p>Spectacular Test Runner for JavaScript.</p>
 </div>
-
-<div simple-line-chart></div>
+-->
+<select name="reading" ng-model="reading"
+  ng-options="option.name for option in readings track by option.id"></select>
+<div simple-line-chart reading="reading"></div>

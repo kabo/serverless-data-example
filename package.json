@@ -12,5 +12,8 @@
   "dependencies": {
     "aws-sdk": "^2.3.5",
     "serverless-optimizer-plugin": "^2.5.1"
+  },
+  "devDependencies": {
+    "serverless-serve": "^1.7.2"
   }
 }

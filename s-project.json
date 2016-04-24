@@ -7,6 +7,7 @@
     }
   },
   "plugins": [
-    "serverless-optimizer-plugin"  
+    "serverless-optimizer-plugin",
+    "serverless-serve"
   ]
 }
